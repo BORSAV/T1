@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fraggix Tournament</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="fraggix-logo.png" alt="Fraggix Logo" />
+  </header>
+  <nav>
+    <a href="#rules">Rules</a>
+    <a href="#register">Register</a>
+    <a href="#teams">Teams</a>
+  </nav>
+  <section id="rules">
+    <h2>📜 Tournament Rules – Clash Squad 💀</h2>
+    <ul>
+      <li>1️⃣ ID & Password will be shared in the WhatsApp group only.</li>
+      <li>2️⃣ Match will start on time – incomplete teams will not get extra time.</li>
+      <li>3️⃣ No PC or emulator players allowed.</li>
+      <li>4️⃣ No hacks, no cheats – strict action will be taken.</li>
+      <li>5️⃣ Breaking any rule = direct disqualification.</li>
+      <li>6️⃣ Revive not allowed – headshot knockout only.</li>
+      <li>7️⃣ No gun attributes.</li>
+      <li>8️⃣ No character skills.</li>
+      <li>9️⃣ Player level must be 35 or above.</li>
+      <li>🔟 No camping – play fair and actively.</li>
+      <li>🔴 Killing from rooftops or high buildings is not allowed.</li>
+    </ul>
+    <p>📌 Follow all rules for a fair and fun tournament.<br />
+    📞 For any doubts, contact admins.</p>
+  </section>
+
+  <section id="register">
+    <h2>📝 Team Registration</h2>
+    <form id="regForm">
+      <input placeholder="Team Name" id="TeamName" required />
+
+      <h4>Player 1</h4>
+      <input placeholder="Name" id="P1Name" required />
+      <input placeholder="UID" id="P1UID" required />
+      <input placeholder="WhatsApp Number" id="P1WA" required />
+
+      <h4>Player 2</h4>
+      <input placeholder="Name" id="P2Name" required />
+      <input placeholder="UID" id="P2UID" required />
+      <input placeholder="WhatsApp Number" id="P2WA" required />
+
+      <h4>Player 3</h4>
+      <input placeholder="Name" id="P3Name" required />
+      <input placeholder="UID" id="P3UID" required />
+      <input placeholder="WhatsApp Number" id="P3WA" required />
+
+      <h4>Player 4</h4>
+      <input placeholder="Name" id="P4Name" required />
+      <input placeholder="UID" id="P4UID" required />
+      <input placeholder="WhatsApp Number" id="P4WA" required />
+
+      <h4>Substitute 1</h4>
+      <input placeholder="Name" id="Sub1Name" required />
+      <input placeholder="UID" id="Sub1UID" required />
+
+      <h4>Substitute 2</h4>
+      <input placeholder="Name" id="Sub2Name" required />
+      <input placeholder="UID" id="Sub2UID" required />
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="teams">
+    <h2>📋 Registered Teams</h2>
+    <p>We will manually update the team list image below when new registrations are added.</p>
+    <img id="team-list" src="latest-team-list.jpg" alt="Registered Team List" />
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
